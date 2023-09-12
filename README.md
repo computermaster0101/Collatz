@@ -14,26 +14,26 @@ Repeat these steps with the resulting number. The conjecture posits that, regard
 While the Collatz Conjecture is easy to understand and has been tested for vast numbers, it remains unproven whether this sequence indeed always reaches 1 for every positive integer or if there are exceptions. This unsolved problem continues to intrigue mathematicians and computer scientists.
 
 
-### Key Observations
+## Key Observations
 
 1. Any two odd numbers, when multiplied, will result in an odd number.
 2. Any even number can be divided by 2 repeatedly until it becomes odd.
 3. Any odd number, when increased or decreased by 1, will become even.
 
-### Another Perspective: Odds Only
+## Another Perspective: Odds Only
 While exploring the Collatz Conjecture, it's fascinating to note that every number, when passed through the Conjecture's logic, eventually becomes even. Similarly, any even number can be repeatedly divided by 2 until it becomes an odd number. This observation opens up a different angle of analysis: what happens when we focus exclusively on odd numbers within the Collatz sequence?
 
-### The "exposeOdds.py" Script
-In pursuit of this perspective, I've created the "exposeOdds.py" script, which you can find in this repository. This script is designed to extract and analyze the behavior of odd numbers in the Collatz sequence, offering a unique insight into their progression and patterns.
-
-### Why Examine Odd Numbers?
+## Why Examine Odd Numbers?
 Simplicity: By narrowing our focus to odd numbers, we simplify the Collatz Conjecture's sequence while still maintaining its core characteristics.
 
 Potential Insights: Examining odd numbers exclusively may reveal hidden patterns, cycles, or behaviors that are not immediately evident when considering the entire sequence.
 
 Reduced Complexity: This approach reduces the number of points for review, potentially making it easier to identify and analyze specific trends.
 
-### How to Use the "exposeOdds.py" Script
+## The "exposeOdds.py" Script
+In pursuit of this perspective, I've created the "exposeOdds.py" script, which you can find in this repository. This script is designed to extract and analyze the behavior of odd numbers in the Collatz sequence, offering a unique insight into their progression and patterns.
+
+## How to Use the "exposeOdds.py" Script
 To explore the behavior of odd numbers within the Collatz Conjecture using the `exposeOdds.py` script, follow these steps:
 
 1. **Input Options**: You have two options for input:
@@ -46,23 +46,23 @@ To explore the behavior of odd numbers within the Collatz Conjecture using the `
    ```shell
    python exposeOdds.py
    ```
-3. Review the Output: The script will generate and display Collatz sequences for the odd numbers you specified, providing insights into their behavior.
+3. **Review the Output**: The script will generate and display Collatz sequences for the odd numbers you specified, providing insights into their behavior.
 
 By following these steps, you can effectively utilize the exposeOdds.py script to investigate the behavior of odd numbers within the Collatz Conjecture, whether you're analyzing a single number or a range of numbers.
 
-#### Positive Odd Numbers
+### Positive Odd Numbers
 
 - When a positive odd number is increased by 1, the output of the pattern will eventually reach an odd number or 1 when repeatedly divided by 2.
 
-#### Negative Odd Numbers
+### Negative Odd Numbers
 
 - When a negative odd number is increased by 1, the output of the pattern has the potential to end in a different prime number.
 
-#### Positive Odd Numbers (Decreased by 1)
+### Positive Odd Numbers (Decreased by 1)
 
 - When a positive odd number is decreased by 1, the output of the pattern has the potential to end in a different prime number.
 
-#### Negative Odd Numbers (Increased by 1)
+### Negative Odd Numbers (Increased by 1)
 
 - When a negative odd number is increased by 1, the output of the pattern will eventually reach an odd number or 1 when repeatedly divided by 2.
 
