@@ -50,21 +50,21 @@ To explore the behavior of odd numbers within the Collatz Conjecture using the `
 
 By following these steps, you can effectively utilize the exposeOdds.py script to investigate the behavior of odd numbers within the Collatz Conjecture, whether you're analyzing a single number or a range of numbers.
 
-### Positive Odd Numbers
+#### Positive Odd Numbers
 
-- When a positive odd number is increased by 1, the output will eventually reach an odd number or 1 when repeatedly divided by 2.
+- When a positive odd number is increased by 1, the output of the pattern will eventually reach an odd number or 1 when repeatedly divided by 2.
 
-### Negative Odd Numbers
+#### Negative Odd Numbers
 
-- When a negative odd number is increased by 1, the output has the potential to end in a different prime number.
+- When a negative odd number is increased by 1, the output of the pattern has the potential to end in a different prime number.
 
-### Positive Odd Numbers (Decreased by 1)
+#### Positive Odd Numbers (Decreased by 1)
 
-- When a positive odd number is decreased by 1, the output has the potential to end in a different prime number.
+- When a positive odd number is decreased by 1, the output of the pattern has the potential to end in a different prime number.
 
-### Negative Odd Numbers (Increased by 1)
+#### Negative Odd Numbers (Increased by 1)
 
-- When a negative odd number is increased by 1, the output will eventually reach an odd number or 1 when repeatedly divided by 2.
+- When a negative odd number is increased by 1, the output of the pattern will eventually reach an odd number or 1 when repeatedly divided by 2.
 
 ## Conclusions
 
