@@ -72,7 +72,7 @@ Following these rules, we can make the following conclusions:
 
 - Any positive number, when passed through the "x3p1" function (Collatz conjecture with increased by 1), will eventually reach 1.
 
-- Any negative number, when passed through the "x3m1" function (Collatz conjecture with decreased by 1), may lead to a different prime number, but determining the final prime number without performing the iterative function is currently not possible.
+- Any negative number, when passed through the "x3m1" function (Collatz conjecture with decreased by 1), will eventually reach 1.
 
 ## Open Questions
 
